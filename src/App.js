@@ -35,7 +35,7 @@ function LoadUsers() {
 
 function User(props) {
   return (
-    <div>
+    <div className='user'>
       <h5>Name: {props.name}</h5>
       <p>Hi kaga! call me, {props.phone}</p>
     </div>
